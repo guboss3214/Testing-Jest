@@ -1,7 +1,7 @@
 import { weekFn } from '../weekFn';
 
 describe('Checking the week number', function(){
-    it('Should return correct day of the week', function(){
+    test('Should return correct day of the week', function(){
         expect(weekFn(1)).toBe('Понеділок');
         expect(weekFn(2)).toBe('Вівторок');
         expect(weekFn(3)).toBe('Середа');
